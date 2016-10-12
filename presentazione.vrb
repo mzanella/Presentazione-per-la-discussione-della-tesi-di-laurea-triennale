@@ -1,0 +1,27 @@
+\frametitle{Esempio di statement}
+\textit{``Mario Rossi ha iniziato il corso Corso di prova''}
+\begin{lstlisting}[basicstyle=\tiny]
+{
+    "actor": {
+        "objectType": "Agent",
+        "name": "Mario Rossi",
+        "mbox": "mailto:mariorossi@email.com"
+    },
+    "verb": {
+        "id": "http://adlnet.gov/expapi/verbs/initialized",
+        "display": {
+            "en-US": "initialized"
+        }
+    },
+    "object": {
+        "objectType": "Activity",
+        "id": "http://Corso%20di%20prova",
+        "definition": {
+            "description": {
+                "und": "Corso di prova"
+            },
+            "type": "http://adlnet.gov/expapi/activities/module"
+        }
+    }
+}
+\end{lstlisting}
